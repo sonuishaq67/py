@@ -10,7 +10,7 @@ import json
 from bs4 import BeautifulSoup as soup
 import random
 from time import strftime
-
+# src https://towardsdatascience.com/build-your-first-voice-assistant-85a5a49f6cc1
 
 def myCommand():
     r = sr.Recognizer()
