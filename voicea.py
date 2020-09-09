@@ -39,7 +39,7 @@ sofiaResponse('Hi User, I am Sophia and I am your personal voice assistant, Plea
 
 
 def assistant(command):
-     if 'shutdown now' in command:
+     if 'sudo shutdown' in command:
         os.system("shutdown now")
 
 
