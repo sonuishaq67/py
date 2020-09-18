@@ -29,18 +29,20 @@ def myCommand():
     return command
 
 
-def sofiaResponse(audio):
+def fridayResponse(audio):
     print(audio)
     for line in audio.splitlines():
         os.system("echo "+line)
 
 
-sofiaResponse('Hi User, I am Sophia and I am your personal voice assistant, Please give a command or say "help me" and I will tell you what all I can do for you.')
+fridayResponse('Hi User, I am Sophia and I am your personal voice assistant, Please give a command or say "help me" and I will tell you what all I can do for you.')
 
 
 def assistant(command):
      if 'sudo shutdown' in command:
         os.system("shutdown now")
+     elif 'sudo restart' in command:
+         os.system("reboot")
 
 
 while True:
