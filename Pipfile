@@ -9,6 +9,10 @@ pillow = "*"
 bs4 = "*"
 pymongo = "*"
 matplotlib = "*"
+pyaudio = "*"
+speechrecognition = "*"
+pyglet = "*"
+wave = "*"
 
 [dev-packages]
 black = "*"
